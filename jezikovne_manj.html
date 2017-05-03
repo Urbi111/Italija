@@ -9,6 +9,33 @@ div.jedro{
   width: 75%;
   margin-left: 15%;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: green;
+}
+
+.active {
+    background-color: white;
+}
 </style>
 </head>
 <body>
@@ -92,6 +119,12 @@ div.jedro{
 
   </tr>
 </table>
+
+<ul>
+  <li>Domov</li>
+  <li>Jezikovne manjšine</li>
+</ul>
+  
 </div>
 
 </body>
